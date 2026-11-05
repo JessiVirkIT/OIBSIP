@@ -39,6 +39,27 @@ This project is part of the Data Analytics Internship at Oasis Infobyte (OIBSIP)
 
 ---
 
+## Task 2: Customer Segmentation Analysis (RFM)
+
+### Project Objective
+The objective of this project is to apply K-Means clustering algorithms to segment an e-commerce company's customer base into distinct groups based on purchasing behaviour (RFM Analysis), enabling targeted marketing strategies.
+
+### Tech Stack Used
+* Python
+* Pandas, NumPy
+* Matplotlib, Seaborn
+* Scikit-Learn (StandardScaler, KMeans)
+* Jupyter Notebook (VS Code)
+
+### Steps Performed
+1. Loaded and inspected the e-commerce retail dataset.
+2. Performed exploratory data analysis and checked descriptive statistics.
+3. Extracted RFM (Recency, Frequency, Monetary) features for each unique customer.
+4. Normalised features using `StandardScaler`.
+5. Applied the Elbow Method to determine the optimal number of clusters ($K=3$).
+6. Performed K-Means Clustering and visualised customer segments using scatter plots.
+7. Profiled each cluster and generated business insights & marketing recommendations.
+
 ## 🚀 How to Run the Code
 1. Clone this repository or download the files.
 2. Ensure you have Python and Jupyter Notebook installed along with required libraries (`pandas`, `numpy`, `matplotlib`, `seaborn`).
