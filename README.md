@@ -39,6 +39,14 @@ This project is part of the Data Analytics Internship at Oasis Infobyte (OIBSIP)
 
 ---
 
+## 🚀 How to Run the Code
+1. Clone this repository or download the files.
+2. Ensure you have Python and Jupyter Notebook installed along with required libraries (`pandas`, `numpy`, `matplotlib`, `seaborn`).
+3. Open `YasmeenAkhter_Task1.ipynb` in Jupyter Notebook and run the cells.
+
+---
+**Author:** Yasmeen Akhter
+
 ## Task 2: Customer Segmentation Analysis (RFM)
 
 ### Project Objective
@@ -59,11 +67,3 @@ The objective of this project is to apply K-Means clustering algorithms to segme
 5. Applied the Elbow Method to determine the optimal number of clusters ($K=3$).
 6. Performed K-Means Clustering and visualised customer segments using scatter plots.
 7. Profiled each cluster and generated business insights & marketing recommendations.
-
-## 🚀 How to Run the Code
-1. Clone this repository or download the files.
-2. Ensure you have Python and Jupyter Notebook installed along with required libraries (`pandas`, `numpy`, `matplotlib`, `seaborn`).
-3. Open `YasmeenAkhter_Task1.ipynb` in Jupyter Notebook and run the cells.
-
----
-**Author:** Yasmeen Akhter
