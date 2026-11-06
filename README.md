@@ -82,6 +82,29 @@ Demonstrate professional-level data cleaning skills by taking a messy dataset, p
 
 ---
 
+## Task 4: Sentiment Analysis Model
+
+### Project Objective
+Build a machine learning model that classifies the sentiment of text data into positive, negative, or neutral categories, providing insights into customer feedback and public opinion.
+
+### Tech Stack Used
+- Python (Programming Language)
+- Pandas, NumPy (Data Manipulation)
+- NLTK (Text Preprocessing & Lemmatisation)
+- Scikit-Learn (TF-IDF Vectorizer, Naive Bayes, Logistic Regression)
+- Matplotlib, Seaborn, WordCloud (Data Visualisation)
+- Jupyter Notebook (VS Code)
+
+### Steps Performed
+1. **Loaded & Inspected Dataset:** Loaded the Amazon Fine Food Reviews dataset, mapped ratings to sentiments (Positive, Neutral, Negative), and analyzed class distributions.
+2. **Text Preprocessing Pipeline:** Cleaned text data by lowercasing, removing punctuation/stopwords, tokenising, and applying lemmatisation using NLTK.
+3. **Feature Extraction:** Implemented **TF-IDF Vectorizer** to convert text documents into numerical feature vectors.
+4. **Model Training & Evaluation:** Split data (80/20) and trained two classifiers (**Multinomial Naive Bayes** and **Logistic Regression**), evaluating them using accuracy, classification report, and confusion matrix.
+5. **Visualisations:** Generated sentiment distribution bar charts and WordClouds for each sentiment class.
+6. **Error Analysis & Conclusion:** Examined misclassified examples and highlighted real-world applications for automated customer feedback monitoring.
+
+---
+
 ## 🚀 How to Run the Code
 1. Clone this repository or download the files.
 2. Ensure you have Python and Jupyter Notebook installed along with required libraries (`pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`).
