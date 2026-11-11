@@ -134,4 +134,28 @@ Build and evaluate a linear regression model that predicts house prices based on
 8. **Bonus Regularisation:** Compared Linear Regression against a Ridge regularised model.
 
 ---
+
+## Level 2 - Task 2: Wine Quality Prediction
+
+### Project Objective
+Train and compare multiple classification models to predict the quality score of wine based on its physicochemical properties, handling class imbalance, feature engineering, stratification, and model evaluation.
+
+### Tech Stack Used
+- Python (Programming Language)
+- Pandas, NumPy (Data Manipulation & Preprocessing)
+- Scikit-Learn (Random Forest, SGD, SVC, StandardScaler, Metrics)
+- Matplotlib, Seaborn (Data Visualisation & Correlation Heatmaps)
+- Jupyter Notebook (VS Code)
+
+### Steps Performed
+1. **Loaded & Inspected Dataset:** Loaded the Wine Quality dataset, checked missing values, and analyzed the class distribution of quality scores.
+2. **Exploratory Data Analysis (EDA):** Computed correlation matrices and visualized feature relationships using heatmaps.
+3. **Class Imbalance & Feature Engineering:** Discussed class distribution challenges and converted multi-class quality scores into a binary classification problem (`Good` vs `Bad` wine) for better model stability.
+4. **Stratified Train/Test Split & Scaling:** Split the dataset (80/20) using stratification to preserve class ratios and normalized features using `StandardScaler`.
+5. **Model Training:** Trained three distinct classifiers: **Random Forest**, **Stochastic Gradient Descent (SGD)**, and **Support Vector Classifier (SVC)**.
+6. **Model Evaluation:** Evaluated models using accuracy, classification reports (precision, recall, F1-score), and confusion matrices.
+7. **Feature Importance:** Visualized the most impactful chemical properties using the Random Forest feature importance chart.
+8. **Conclusion & Deployment:** Compared all models side-by-side and concluded that Random Forest is the most suitable choice for deployment due to its superior handling of non-linear features and stability.
+
+---
 **Author:** Yasmeen Akhter
