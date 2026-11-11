@@ -36,6 +36,11 @@ Performs an **Exploratory Data Analysis (EDA)** on a retail sales dataset to unc
 2. **Promote Beauty Category:** Introduce bundle offers or discounts on Beauty products combined with Clothing or Electronics to boost turnover.
 3. **Targeted Marketing:** Focus marketing campaigns on the 18–25 age group to maximize average order value, as they spend the most per transaction.
 
+## 🚀 How to Run the Code
+1. Clone this repository or download the files.
+2. Ensure you have Python and Jupyter Notebook installed along with required libraries (`pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`).
+3. Open the respective `.ipynb` notebooks in Jupyter Notebook and run the cells.
+
 ---
 
 ## Task 2: Customer Segmentation Analysis (RFM)
@@ -104,11 +109,29 @@ Build a machine learning model that classifies the sentiment of text data into p
 6. **Error Analysis & Conclusion:** Examined misclassified examples and highlighted real-world applications for automated customer feedback monitoring.
 
 ---
+---
 
-## 🚀 How to Run the Code
-1. Clone this repository or download the files.
-2. Ensure you have Python and Jupyter Notebook installed along with required libraries (`pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`).
-3. Open the respective `.ipynb` notebooks in Jupyter Notebook and run the cells.
+## Level 2 - Task 1: Predicting House Prices with Linear Regression
+
+### Project Objective
+Build and evaluate a linear regression model that predicts house prices based on various features. Developed end-to-end skills from data cleaning and exploratory data analysis (EDA) through to model training, evaluation, and coefficient interpretation.
+
+### Tech Stack Used
+- Python (Programming Language)
+- Pandas, NumPy (Data Manipulation & Math)
+- Scikit-Learn (California Housing Dataset, LinearRegression, Ridge, Metrics)
+- Matplotlib, Seaborn (Data Visualisation & Heatmaps)
+- Jupyter Notebook (VS Code)
+
+### Steps Performed
+1. **Loaded & Inspected Dataset:** Loaded the California Housing dataset from Scikit-learn, checked for null values, and viewed descriptive statistics.
+2. **Exploratory Data Analysis (EDA):** Analyzed the distribution of the target variable (Median House Value) using histograms.
+3. **Feature Selection & Correlation:** Computed the correlation matrix and visualized feature relationships using a correlation heatmap.
+4. **Model Training:** Split data into 80/20 train/test sets and trained a **Linear Regression** model.
+5. **Model Evaluation:** Evaluated performance using Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R² Score.
+6. **Visualisations:** Placed actual vs. predicted prices scatter plots and residual plots to verify model assumptions.
+7. **Coefficient Analysis:** Analyzed feature coefficients to identify which variables had the highest positive/negative impact on house prices.
+8. **Bonus Regularisation:** Compared Linear Regression against a Ridge regularised model.
 
 ---
 **Author:** Yasmeen Akhter
