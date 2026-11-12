@@ -205,4 +205,25 @@ Perform a comprehensive data analysis of the Google Play Store ecosystem by clea
 7. **Developer Insights:** Concluded with 3 data-driven insights regarding app saturation, monetisation strategies, and the critical importance of monitoring user feedback to maintain high ratings.
 
 ---
+
+## Level 2 - Task 5: Autocomplete and Autocorrect Data Analytics
+
+### Project Objective
+Analyze the efficiency and accuracy of autocomplete and autocorrect algorithms using NLP techniques, implementing a frequency-based n-gram model and an edit-distance correction system.
+
+### Tech Stack Used
+- Python (Programming Language)
+- Pandas, NLTK (Corpus loading, tokenisation, n-grams)
+- Pyspellchecker (Levenshtein distance spelling correction)
+- Matplotlib, Seaborn (Frequency distributions)
+- Jupyter Notebook (VS Code)
+
+### Steps Performed
+1. **Loaded Corpus & Preprocessed:** Downloaded the Project Gutenberg text corpus, tokenised words, converted to lowercase, and removed punctuation.
+2. **Frequency Distribution:** Visualized the top 20 most frequent words in the text corpus using a Seaborn bar chart.
+3. **Autocomplete Implementation:** Built a frequency-based bigram model and tested predictions across multiple input prefixes.
+4. **Autocorrect Implementation:** Implemented edit-distance spelling correction on deliberately misspelled words, achieving high accuracy metrics.
+5. **Evaluation & Comparison:** Discussed performance metrics (precision/recall) and highlighted core limitations of static n-gram models compared to production-grade neural keyboards like Gboard.
+
+---
 **Author:** Yasmeen Akhter
