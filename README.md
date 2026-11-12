@@ -110,8 +110,6 @@ Build a machine learning model that classifies the sentiment of text data into p
 
 ---
 
----
-
 ## Level 2 - Task 1: Predicting House Prices with Linear Regression
 
 ### Project Objective
