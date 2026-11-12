@@ -109,7 +109,6 @@ Build a machine learning model that classifies the sentiment of text data into p
 6. **Error Analysis & Conclusion:** Examined misclassified examples and highlighted real-world applications for automated customer feedback monitoring.
 
 ---
----
 
 ## Level 2 - Task 1: Predicting House Prices with Linear Regression
 
@@ -158,7 +157,6 @@ Train and compare multiple classification models to predict the quality score of
 8. **Conclusion & Deployment:** Compared all models side-by-side and concluded that Random Forest is the most suitable choice for deployment due to its superior handling of non-linear features and stability.
 
 ---
----
 
 ## Level 2 - Task 3: Fraud Detection using Machine Learning
 
@@ -182,8 +180,6 @@ Build a robust machine learning pipeline to detect fraudulent financial transact
 6. **Model Evaluation:** Evaluated performance using Precision, Recall, F1-Score, Confusion Matrices, and AUC-ROC curves.
 7. **Recall vs. Precision Trade-off:** Discussed why Recall is critical in fraud detection to prevent missed fraudulent transactions (False Negatives).
 8. **Scalability Discussion:** Outlined cloud architectures (PySpark, Kafka, Kubernetes) for scaling the model to 1 million transactions per hour in production.
-
----
 
 ---
 
