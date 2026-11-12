@@ -5,7 +5,7 @@ This repository contains projects completed as part of the Data Analytics Intern
 
 ---
 
-## Task 1: Retail Sales Data Analysis
+## Level 1 - Task 1: Retail Sales Data Analysis
 
 ### 📌 Project Overview
 Performs an **Exploratory Data Analysis (EDA)** on a retail sales dataset to uncover patterns in customer behavior, sales trends over time, product category performance, and correlation between variables.
@@ -182,6 +182,31 @@ Build a robust machine learning pipeline to detect fraudulent financial transact
 6. **Model Evaluation:** Evaluated performance using Precision, Recall, F1-Score, Confusion Matrices, and AUC-ROC curves.
 7. **Recall vs. Precision Trade-off:** Discussed why Recall is critical in fraud detection to prevent missed fraudulent transactions (False Negatives).
 8. **Scalability Discussion:** Outlined cloud architectures (PySpark, Kafka, Kubernetes) for scaling the model to 1 million transactions per hour in production.
+
+---
+
+---
+
+## Level 2 - Task 4: Unveiling the Android App Market (Google Play Store Analysis)
+
+### Project Objective
+Perform a comprehensive data analysis of the Google Play Store ecosystem by cleaning messy real-world data, exploring app categories, analyzing ratings and pricing trends, and conducting sentiment analysis on user reviews to derive actionable developer insights.
+
+### Tech Stack Used
+- Python (Programming Language)
+- Pandas, NumPy (Data Cleaning & Manipulation)
+- Matplotlib, Seaborn (Data Visualisation & Distribution Plots)
+- NLTK VADER (Sentiment Analysis on User Reviews)
+- Jupyter Notebook (VS Code)
+
+### Steps Performed
+1. **Loaded Datasets:** Loaded the Google Play Store apps dataset and the user reviews dataset separately.
+2. **Data Cleaning:** Cleaned messy real-world strings (e.g., removing '+', ',', '$' signs in Installs and Price columns), handled null values, and removed duplicates.
+3. **Category Analysis:** Visualized app distribution across categories to identify the most saturated app sectors on the Play Store.
+4. **Ratings & Size Analysis:** Examined the overall distribution of app ratings and analyzed correlations between app reviews and user installs.
+5. **Pricing Analysis:** Compared free vs. paid app distributions and evaluated monetisation trends.
+6. **Sentiment Analysis on User Reviews:** Implemented NLTK's VADER Sentiment Intensity Analyzer to classify user reviews into Positive, Negative, and Neutral categories without training models.
+7. **Developer Insights:** Concluded with 3 data-driven insights regarding app saturation, monetisation strategies, and the critical importance of monitoring user feedback to maintain high ratings.
 
 ---
 **Author:** Yasmeen Akhter
