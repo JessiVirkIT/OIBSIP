@@ -36,11 +36,6 @@ Performs an **Exploratory Data Analysis (EDA)** on a retail sales dataset to unc
 2. **Promote Beauty Category:** Introduce bundle offers or discounts on Beauty products combined with Clothing or Electronics to boost turnover.
 3. **Targeted Marketing:** Focus marketing campaigns on the 18–25 age group to maximize average order value, as they spend the most per transaction.
 
-## 🚀 How to Run the Code
-1. Clone this repository or download the files.
-2. Ensure you have Python and Jupyter Notebook installed along with required libraries (`pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`).
-3. Open the respective `.ipynb` notebooks in Jupyter Notebook and run the cells.
-
 ---
 
 ## Level 1 - Task 2: Customer Segmentation Analysis (RFM)
@@ -224,6 +219,13 @@ Analyze the efficiency and accuracy of autocomplete and autocorrect algorithms u
 3. **Autocomplete Implementation:** Built a frequency-based bigram model and tested predictions across multiple input prefixes.
 4. **Autocorrect Implementation:** Implemented edit-distance spelling correction on deliberately misspelled words, achieving high accuracy metrics.
 5. **Evaluation & Comparison:** Discussed performance metrics (precision/recall) and highlighted core limitations of static n-gram models compared to production-grade neural keyboards like Gboard.
+
+---
+
+## 🚀 How to Run the Code
+1. Clone this repository or download the files.
+2. Ensure you have Python and Jupyter Notebook installed along with required libraries (`pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `imbalanced-learn`, `pyspellchecker`).
+3. Open the respective `.ipynb` notebooks in Jupyter Notebook / VS Code and run the cells.
 
 ---
 **Author:** Yasmeen Akhter
