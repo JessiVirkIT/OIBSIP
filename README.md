@@ -43,7 +43,7 @@ Performs an **Exploratory Data Analysis (EDA)** on a retail sales dataset to unc
 
 ---
 
-## Task 2: Customer Segmentation Analysis (RFM)
+## Level 1 - Task 2: Customer Segmentation Analysis (RFM)
 
 ### Project Objective
 The objective of this project is to apply K-Means clustering algorithms to segment an e-commerce company's customer base into distinct groups based on purchasing behaviour (RFM Analysis), enabling targeted marketing strategies.
@@ -66,7 +66,7 @@ The objective of this project is to apply K-Means clustering algorithms to segme
 
 ---
 
-## Task 3: Data Cleaning and Preparation
+## Level 1 - Task 3: Data Cleaning and Preparation
 
 ### Project Objective
 Demonstrate professional-level data cleaning skills by taking a messy dataset, producing a data quality report, handling missing values, removing duplicates, normalising formatting, detecting outliers, correcting data types, and producing a "Before vs After" summary.
@@ -87,7 +87,7 @@ Demonstrate professional-level data cleaning skills by taking a messy dataset, p
 
 ---
 
-## Task 4: Sentiment Analysis Model
+## Level 1 - Task 4: Sentiment Analysis Model
 
 ### Project Objective
 Build a machine learning model that classifies the sentiment of text data into positive, negative, or neutral categories, providing insights into customer feedback and public opinion.
