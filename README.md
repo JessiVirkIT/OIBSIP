@@ -158,4 +158,30 @@ Train and compare multiple classification models to predict the quality score of
 8. **Conclusion & Deployment:** Compared all models side-by-side and concluded that Random Forest is the most suitable choice for deployment due to its superior handling of non-linear features and stability.
 
 ---
+---
+
+## Level 2 - Task 3: Fraud Detection using Machine Learning
+
+### Project Objective
+Build a robust machine learning pipeline to detect fraudulent financial transactions from a heavily imbalanced dataset, addressing class imbalance as a core challenge using SMOTE and advanced evaluation metrics.
+
+### Tech Stack Used
+- Python (Programming Language)
+- Pandas, NumPy (Data Manipulation & Preprocessing)
+- Scikit-Learn (Logistic Regression, RandomForest, StandardScaler, Metrics)
+- Imbalanced-Learn (SMOTE for oversampling)
+- Matplotlib, Seaborn (Data Visualisation & ROC Curves)
+- Jupyter Notebook (VS Code)
+
+### Steps Performed
+1. **Loaded & Inspected Dataset:** Loaded the Credit Card Fraud dataset and calculated the exact percentage of fraudulent transactions (~0.17%), highlighting severe class imbalance.
+2. **Exploratory Data Analysis (EDA):** Analyzed transaction amounts using boxplots and log-scale distributions for fraud vs. non-fraud cases.
+3. **Metric Discussion:** Explained why standard accuracy is deeply misleading for imbalanced datasets and why Precision, Recall, and AUC-ROC are necessary.
+4. **SMOTE Oversampling & Stratified Split:** Split data using stratification and applied **SMOTE** on the training set to balance minority fraud cases.
+5. **Model Training:** Trained **Logistic Regression** (with feature scaling and convergence optimization) and **Random Forest Classifier** on the resampled data.
+6. **Model Evaluation:** Evaluated performance using Precision, Recall, F1-Score, Confusion Matrices, and AUC-ROC curves.
+7. **Recall vs. Precision Trade-off:** Discussed why Recall is critical in fraud detection to prevent missed fraudulent transactions (False Negatives).
+8. **Scalability Discussion:** Outlined cloud architectures (PySpark, Kafka, Kubernetes) for scaling the model to 1 million transactions per hour in production.
+
+---
 **Author:** Yasmeen Akhter
